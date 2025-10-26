@@ -7,8 +7,10 @@ Rivalio chendra        (2509116039)<br>
 
 
 ## FLOWCHART
+```
 ## Sistem Login
 ![WhatsApp Image 2025-10-26 at 20 28 34_9034a9a6](https://github.com/user-attachments/assets/ddd77d69-92a6-42b4-8686-35e6a61fad95)
+```
 ## Sistem Manager
 ![WhatsApp Image 2025-10-26 at 20 28 35_0ddb3719](https://github.com/user-attachments/assets/affb0975-9968-442a-bd50-99255d340758)
 ## Sistem Karyawan
@@ -417,15 +419,8 @@ pip install prettytable pwinput
 Pastikan semua file JSON berada dalam direktori yang sama dengan `ReservasiHotel.py`:
 
 ```
-project/
-│
-├── ReservasiHotel.py
-├── DataReservasi.json
-├── DataCheckList.json
-├── DataHarga.json
-├── DataKaryawan.json
-├── DataManager.json
-└── DataKostumer.json
+<img width="160" height="160" alt="image" src="https://github.com/user-attachments/assets/23440c61-db44-459d-8afe-a118bf345ad3" />
+
 ```
 
 ## Cara Menjalankan Aplikasi
