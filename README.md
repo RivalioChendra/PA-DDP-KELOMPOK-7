@@ -333,7 +333,7 @@ Password minimal 4 karakter!
 <img width="297" height="61" alt="image" src="https://github.com/user-attachments/assets/b5daa58b-2b0e-4312-841f-90deff242079" />
 
 # Terganggunya Proses (except Keyboard Interrupt)
-<img width="346" height="59" alt="image" src="https://github.com/user-attachments/assets/6a08f6ca-8727-48ad-9c2d-91c54a282958" />
+<img width="327" height="60" alt="image" src="https://github.com/user-attachments/assets/6eec1a12-0a90-4a00-8ac3-865aa676934b" />
 
 # Gangguan Lainnya (Exception as e)
 <img width="355" height="64" alt="image" src="https://github.com/user-attachments/assets/59ef116c-b8af-4270-9dc7-d2b0719f781d" />
