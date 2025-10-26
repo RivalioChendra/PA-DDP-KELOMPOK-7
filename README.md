@@ -332,15 +332,22 @@ Uang Tidak Cukup
 # Hotel penuh
 Maaf, semua kamar penuh (maksimal 10).
 
-# Input tidak valid
-Input harus angka!
-
 # Password terlalu pendek
 Password minimal 4 karakter!
-
-# File tidak ditemukan
-File DataReservasi.json tidak ditemukan. Membuat file kosong.
 ```
+
+# Input tidak valid (except ValueError)
+<img width="255" height="64" alt="image" src="https://github.com/user-attachments/assets/483c5960-a00c-452b-9ca7-e65246739967" />
+
+# File tidak ditemukan (except KeyError)
+<img width="297" height="61" alt="image" src="https://github.com/user-attachments/assets/b5daa58b-2b0e-4312-841f-90deff242079" />
+
+# Terganggunya Proses (except Keyboard Interrupt)
+<img width="346" height="59" alt="image" src="https://github.com/user-attachments/assets/6a08f6ca-8727-48ad-9c2d-91c54a282958" />
+
+# Gangguan Lainnya (Exception as e)
+<img width="355" height="64" alt="image" src="https://github.com/user-attachments/assets/59ef116c-b8af-4270-9dc7-d2b0719f781d" />
+
 ---
 
 ### Status Tertolak Dalam Percobaan Login
