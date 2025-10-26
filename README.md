@@ -270,7 +270,8 @@ Menampilkan semua data reservasi aktif dalam format tabel dengan kolom:
 - **Total Harga:** Biaya total dengan format currency (Rp)
 
 **Contoh Output:**
-<img width="460" height="351" alt="image" src="https://github.com/user-attachments/assets/2902f5ed-412e-48b1-b3cd-d138aa433966" />
+<img width="813" height="354" alt="image" src="https://github.com/user-attachments/assets/64f93565-20da-4e95-ab02-7b50c26808ad" />
+
 
 
 
