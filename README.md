@@ -259,87 +259,6 @@ Pastikan semua file JSON berada dalam direktori yang sama dengan `ReservasiHotel
 
 
 
-## Cara Menjalankan Aplikasi
-
-### Menjalankan Program
-bash
-python ReservasiHotel.py
-
-
-### Login Credentials (Default)
-
-**Manager:**
-
-Username: manager1
-Password: 111
-
-
-**Karyawan:**
-
-Username: karyawan1
-Password: 111
-
-
-**Kostumer VIP:**
-
-Username: vip1
-Password: vip123
-E-Money: Rp 500.000
-
-
-**Kostumer Reguler:**
-
-Username: reguler1
-Password: reg123
-E-Money: Rp 100.000
-
-
-**Admin (Hapus Akun):**
-
-Password: unmul123
-
-
-## Contoh Penggunaan
-
-### Skenario 1: Manager Menambah Reservasi
-
-python
-# Login sebagai Manager
-Username: manager1
-Password: 111
-
-# Pilih menu "Tambah Reservasi"
-Masukkan pilihan: 1
-
-# Input data reservasi
-Nama Tamu: John Doe
-Nomor Kamar: 3
-Durasi (hari): 2
-
-# Output
-Reservasi berhasil! Total: Rp 600,000
-
-
-### Skenario 2: Kostumer VIP Memesan Kamar
-
-python
-# Login sebagai Kostumer VIP
-Username: vip1
-Password: vip123
-
-# Pilih "Pesan Kamar"
-Masukkan pilihan: 1
-
-# Input pemesanan
-Nama Anda: Jane Smith
-Pilih Kamar: 7
-Durasi (hari): 3
-
-# Output (dengan diskon 15%)
-Total sebelum diskon: Rp 1,800,000
-Diskon VIP (15%): Rp 270,000
-Total akhir: Rp 1,530,000
-
 # Struk digital otomatis ditampilkan
 ====================================================
 =                Pembelian Kamar                   =
@@ -352,28 +271,6 @@ Total akhir: Rp 1,530,000
 ====================================================
 =   Total            : Rp 1,530,000
 ====================================================
-
-
-### Skenario 3: Karyawan Melihat Status Kamar
-
-python
-# Login sebagai Karyawan
-Username: karyawan1
-Password: 111
-
-# Pilih "Lihat Ketersediaan Kamar"
-Masukkan pilihan: 2
-
-# Output
-+--------+-------------+
-|  Kamar |    Status   |
-+--------+-------------+
-|    1   |  Ditempati  |
-|    2   |  Ditempati  |
-|    3   |  Tersedia   |
-|    4   |  Tersedia   |
-|   ...  |     ...     |
-+--------+-------------+
 
 
 ## Penjelasan Output Program
@@ -399,7 +296,7 @@ Menampilkan semua data reservasi aktif dalam format tabel dengan kolom:
 +----+-------------+-------------+--------+---------------+
 
 
-![Output Tabel Reservasi](https://via.placeholder.com/650x300/3498db/ffffff?text=Output+Tabel+Reservasi)
+
 
 
 
