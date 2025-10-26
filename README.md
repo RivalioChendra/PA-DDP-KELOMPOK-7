@@ -9,9 +9,9 @@ Rivalio chendra        (2509116039)<br>
 ## FLOWCHART
 
 ## Sistem Login
-![WhatsApp Image 2025-10-26 at 20 28 34_9034a9a6](https://github.com/user-attachments/assets/ddd77d69-92a6-42b4-8686-35e6a61fad95)
+![Gambar WhatsApp 2025-10-26 pukul 20 28 32_46a23616](https://github.com/user-attachments/assets/a573da1c-7fc4-4917-9fdb-2880827ad27e)
 ## Sistem Manager
-![WhatsApp Image 2025-10-26 at 20 28 35_0ddb3719](https://github.com/user-attachments/assets/affb0975-9968-442a-bd50-99255d340758)
+![Gambar WhatsApp 2025-10-26 pukul 20 28 32_d910140e](https://github.com/user-attachments/assets/84c345b5-ecf3-4fe0-bb44-450873eb265c)
 ## Sistem Karyawan
 ![WhatsApp Image 2025-10-26 at 20 28 35_43b6b49f](https://github.com/user-attachments/assets/9a883d25-29ee-494d-81e4-92f40a4f04ad)
 ## Sistem Kostumer
