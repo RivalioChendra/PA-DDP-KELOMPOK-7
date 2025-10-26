@@ -258,9 +258,6 @@ Pastikan semua file JSON berada dalam direktori yang sama dengan `ReservasiHotel
 
 
 
-# Struk digital otomatis ditampilkan
-<img width="489" height="223" alt="image" src="https://github.com/user-attachments/assets/399564bf-b08e-4ff5-bcc1-c72865a18004" />
-
 
 ## Penjelasan Output Program
 
@@ -273,18 +270,7 @@ Menampilkan semua data reservasi aktif dalam format tabel dengan kolom:
 - **Total Harga:** Biaya total dengan format currency (Rp)
 
 **Contoh Output:**
-
-+------------------------------------+
-|    Daftar Reservasi Hotel         |
-+----+-------------+-------------+--------+---------------+
-| No | Nama Tamu   | Nomor Kamar | Durasi | Total Harga   |
-+----+-------------+-------------+--------+---------------+
-| 1  | Fred        | 1           | 1      | Rp 300,000    |
-| 2  | Jajajaja    | 2           | 2      | Rp 600,000    |
-| 3  | Brenden     | 3           | 3      | Rp 765,000    |
-+----+-------------+-------------+--------+---------------+
-
-
+<img width="460" height="351" alt="image" src="https://github.com/user-attachments/assets/2902f5ed-412e-48b1-b3cd-d138aa433966" />
 
 
 
@@ -296,26 +282,7 @@ Visualisasi real-time ketersediaan 10 kamar hotel:
 
 **Contoh Output:**
 
-+-------------------------+
-|     Status Kamar        |
-+--------+----------------+
-| Kamar  |     Status     |
-+--------+----------------+
-| 1      | Ditempati      |
-| 2      | Tersedia       |
-| 3      | Ditempati      |
-| 4      | Ditempati      |
-| 5      | Tersedia       |
-| 6      | Tersedia       |
-| 7      | Ditempati      |
-| 8      | Tersedia       |
-| 9      | Tersedia       |
-| 10     | Tersedia       |
-+--------+----------------+
-
-
-![Output Status Kamar](https://via.placeholder.com/500x350/27ae60/ffffff?text=Output+Status+Kamar)
-
+<img width="173" height="310" alt="image" src="https://github.com/user-attachments/assets/5dfbcdf9-4cfe-4070-9ed5-c37fd2a723e7" />
 
 
 ### 💰 Tabel Harga Kamar
@@ -324,18 +291,9 @@ Informasi pricing berdasarkan lokasi:
 - **Lantai 2 (Kamar 6-10):** Rp 600.000/malam
 
 **Contoh Output:**
-```
-+-------------------------------------+
-|      Daftar Harga Kamar            |
-+----+--------+--------+------------------+
-| No | Kamar  | Lantai | Harga per Malam |
-+----+--------+--------+------------------+
-| 1  | 1 - 5  | 1      | Rp 300.000      |
-| 2  | 6 - 10 | 2      | Rp 600.000      |
-+----+--------+--------+------------------+
-```
 
-![Output Tabel Harga](https://via.placeholder.com/600x250/e67e22/ffffff?text=Output+Daftar+Harga)
+<img width="343" height="140" alt="image" src="https://github.com/user-attachments/assets/19a3e828-83a1-4082-abcc-b37ccf59d450" />
+
 
 ---
 
@@ -349,28 +307,11 @@ Dokumen digital yang diberikan setelah pembayaran berhasil, berisi:
 - Total biaya (sudah termasuk diskon jika VIP)
 
 **Contoh Output:**
-```
-====================================================
-=                Pembelian Kamar                   =
-====================================================
-    Nama            : Sarah Wilson
-    Tanggal         : 2025-10-26
-    Lantai Kamar    : 2
-    Harga Per Malam : Rp 600,000
-    Durasi          : 2 Hari
-====================================================
-=   Total            : Rp 1,020,000
-====================================================
-= Terima Kasih atas Kunjungan Anda!                =
-= Silakan Simpan Struk Ini sebagai Bukti.          =
-====================================================
-```
 
-![Output Struk](https://via.placeholder.com/550x400/9b59b6/ffffff?text=Output+Struk+Pembelian)
-
+<img width="390" height="260" alt="image" src="https://github.com/user-attachments/assets/17ba27eb-a5d6-445b-b3dc-d6d7d9a4a6e6" />
 ---
 
-### ✅ Pesan Sukses
+### Pesan Sukses
 Output konfirmasi untuk berbagai operasi berhasil.
 
 **Contoh Output:**
@@ -398,12 +339,10 @@ Reservasi diubah!
 Reservasi dihapus!
 ```
 
-![Output Success](https://via.placeholder.com/600x300/2ecc71/ffffff?text=Pesan+Sukses)
-
 ---
 
-### ❌ Pesan Error
-Output peringatan untuk berbagai kondisi error atau validasi.
+### Error Handling
+Output menangani untuk berbagai kondisi error atau validasi.
 
 **Contoh Output:**
 ```
@@ -429,73 +368,27 @@ Password minimal 4 karakter!
 # File tidak ditemukan
 File DataReservasi.json tidak ditemukan. Membuat file kosong.
 ```
-
-![Output Error](https://via.placeholder.com/600x300/e74c3c/ffffff?text=Pesan+Error)
-
 ---
 
-### 🔄 Status Loading & Delay
-Program menampilkan status pemrosesan dan delay untuk user experience.
+### Status Tertolak Dalam Percobaan Login
+Program menampilkan status pemrosesan dan delay untuk pengguna dalam percobaan login.
 
 **Contoh Output:**
-```
-# Menampilkan struk (5 detik)
-[Struk ditampilkan selama 5 detik...]
 
-# Penalty login (30-90 detik)
-Tunggu 30 detik untuk mencoba lagi
-[Countdown timer...]
+<img width="396" height="76" alt="image" src="https://github.com/user-attachments/assets/262588a8-ec89-464a-aa2c-799a0dbabb02" />
+
+<img width="387" height="78" alt="image" src="https://github.com/user-attachments/assets/015b9b48-4f0d-4c0c-aa82-c3bb6edd123e" />
+
+<img width="389" height="74" alt="image" src="https://github.com/user-attachments/assets/e65442fd-8bfa-45a4-8591-941ac87794f9" />
+
 
 # Keluar sistem
-Keluar dari sistem...
-[Loading 1 detik...]
-```
+<img width="722" height="46" alt="image" src="https://github.com/user-attachments/assets/856a634f-0fb8-4192-986d-91a2f91515df" />
 
-![Output Loading](https://via.placeholder.com/600x200/95a5a6/ffffff?text=Status+Loading)
 
-## Keamanan & Validasi
 
-### Security Features
-- Password tersembunyi saat input menggunakan `pwinput`
-- Verifikasi admin untuk fitur sensitif (hapus akun)
-- Rate limiting: maksimal 10 percobaan login dengan penalty delay
-- Case-insensitive login untuk user experience lebih baik
 
-### Input Validation
-- Validasi tipe data (integer untuk kamar, durasi, saldo)
-- Cek ketersediaan kamar sebelum pemesanan
-- Validasi saldo minimum (Rp 50.000) dan maksimum (Rp 1.000.000)
-- Password minimal 4 karakter
-- Exception handling untuk mencegah crash
-
-## Troubleshooting
-
-### Error: "File JSON tidak ditemukan"
-**Solusi:** Program akan otomatis membuat file kosong. Restart aplikasi.
-
-### Error: "ModuleNotFoundError: prettytable/pwinput"
-**Solusi:** Install dependencies:
-```bash
-pip install prettytable pwinput
-```
-
-### Error: "Kamar tidak tersedia"
-**Solusi:** Cek status kamar terlebih dahulu, pastikan kamar dalam status "Tersedia".
-
-### Program tidak clear screen
-**Solusi:** Pada Linux/Mac, ubah `os.system("cls")` menjadi `os.system("clear")` di file Python.
-
-## Kontribusi & Development
-
-Program ini dikembangkan sebagai proyek pembelajaran manajemen hotel. Saran pengembangan lebih lanjut:
-- Integrasi database SQL untuk skalabilitas
-- GUI menggunakan Tkinter atau PyQt
-- Fitur checkout otomatis berdasarkan durasi
-- Laporan keuangan dan statistik occupancy
-- Notifikasi email/SMS untuk konfirmasi booking
 
 ---
 
-**Terima kasih telah menggunakan Sistem Reservasi Hotel!** 
-
-Untuk pertanyaan atau dukungan, silakan hubungi tim pengembang.
+ 
