@@ -10,7 +10,6 @@ Rivalio chendra        (2509116039)<br>
 
 ## Sistem Login
 ![WhatsApp Image 2025-10-26 at 20 28 34_9034a9a6](https://github.com/user-attachments/assets/ddd77d69-92a6-42b4-8686-35e6a61fad95)
-
 ## Sistem Manager
 ![WhatsApp Image 2025-10-26 at 20 28 35_0ddb3719](https://github.com/user-attachments/assets/affb0975-9968-442a-bd50-99255d340758)
 ## Sistem Karyawan
@@ -23,15 +22,9 @@ Rivalio chendra        (2509116039)<br>
 
 Sistem Reservasi Hotel adalah aplikasi berbasis console yang dirancang untuk mengelola operasional hotel dengan 10 kamar tersedia. Program ini menyediakan tiga tingkat akses berbeda (Manager, Karyawan, dan Kostumer) dengan fitur yang disesuaikan untuk setiap role. Semua data disimpan dalam format JSON, memungkinkan persistensi data antar sesi. Sistem ini mencakup fitur manajemen reservasi lengkap, pengelolaan saldo e-money untuk kostumer, dan sistem diskon khusus untuk member VIP.
 
-## Fitur Unggulan ⭐
+## Fitur Unggulan 
 
-### Sistem Multi-Role dengan Hak Akses Berbeda
-Program mengimplementasikan role-based access control (RBAC) yang membedakan hak akses antara Manager, Karyawan, dan Kostumer. Setiap role memiliki menu dan fungsi spesifik yang disesuaikan dengan kebutuhan operasional mereka.
-
-### E-Money Payment System
-Kostumer dapat mengelola saldo digital mereka langsung dalam aplikasi. Sistem ini dilengkapi dengan validasi pembayaran, riwayat transaksi, dan struk digital otomatis setelah pemesanan berhasil.
-
-### Dynamic Pricing & VIP Discount
+### Perbedaan Jenis Kostumer (Reguler & VIP)
 Hotel memiliki dua tier pricing berdasarkan lantai (Lantai 1: Rp 300.000, Lantai 2: Rp 600.000). Member VIP mendapatkan diskon otomatis 15% untuk setiap transaksi, mendorong loyalitas pelanggan.
 
 ## Fitur Program Berdasarkan Role
@@ -42,8 +35,8 @@ Menu login yang menampilkan pilihan role dan fitur registrasi akun baru.
 
 <img width="603" height="300" alt="Cuplikan layar 2025-10-26 204652" src="https://github.com/user-attachments/assets/8be0ce93-b254-49bb-bed8-57dcbc9cd4f9" />
 
-
-### 👨‍💼 Manager
+---
+## Manager
 
 #### 1. Menu Utama Manager
 
@@ -125,9 +118,9 @@ Menampilkan status real-time semua kamar hotel.
 
 
 
+---
 
-
-### 👷 Karyawan
+## Karyawan
 
 #### 1. Menu Utama Karyawan
 
@@ -146,10 +139,10 @@ Output sama dengan Manager, namun tanpa akses edit/hapus.
 
 <img width="678" height="544" alt="image" src="https://github.com/user-attachments/assets/ea0904bd-76b3-4f8c-92d6-5a3fa5faf791" />
 
+---
 
 
-
-### 🧳 Kostumer
+###  Kostumer
 
 #### 1. Menu Utama Kostumer
 
@@ -208,7 +201,7 @@ Cek saldo terkini.
 
 ---
 
-###  Administrasi
+##  Administrasi
 
 #### 1. Hapus Akun
 
@@ -224,7 +217,7 @@ Masukkan Password Admin: unmul123
 
 Akun Karyawan 'karyawan3' berhasil dihapus.
 
-
+---
 
 ### 📝 Registrasi Akun Baru
 
@@ -235,12 +228,11 @@ Interface untuk membuat akun baru (Manager, Karyawan, atau Kostumer).
 <img width="582" height="335" alt="image" src="https://github.com/user-attachments/assets/f774089b-3744-4d9d-a0d3-bb1818974a4f" />
 
 
-
 **Output:**
 
 Registrasi sukses! Akun Karyawan baru telah ditambahkan.
 
-
+---
 
 
 **Library yang Digunakan:**
@@ -257,7 +249,7 @@ Pastikan semua file JSON berada dalam direktori yang sama dengan `ReservasiHotel
 <img width="160" height="160" alt="image" src="https://github.com/user-attachments/assets/23440c61-db44-459d-8afe-a118bf345ad3" />
 
 
-
+---
 
 ## Penjelasan Output Program
 
@@ -273,7 +265,7 @@ Menampilkan semua data reservasi aktif dalam format tabel dengan kolom:
 <img width="813" height="354" alt="image" src="https://github.com/user-attachments/assets/64f93565-20da-4e95-ab02-7b50c26808ad" /> 
 
 
-
+---
 
 
 ### Tabel Status Kamar
@@ -285,7 +277,7 @@ Visualisasi real-time ketersediaan 10 kamar hotel:
 
 <img width="173" height="310" alt="image" src="https://github.com/user-attachments/assets/5dfbcdf9-4cfe-4070-9ed5-c37fd2a723e7" />
 
-
+---
 ### Tabel Harga Kamar
 Informasi pricing berdasarkan lokasi:
 - **Lantai 1 (Kamar 1-5):** Rp 300.000/malam
@@ -309,8 +301,6 @@ Dokumen digital yang diberikan setelah pembayaran berhasil, berisi:
 
 **Contoh Output:** <br>
 <img width="382" height="263" alt="image" src="https://github.com/user-attachments/assets/a3e81a68-26f1-47d2-abaf-303c59c457be" />
-
----
 
 ---
 
@@ -361,13 +351,9 @@ Program menampilkan status pemrosesan dan delay untuk pengguna dalam percobaan l
 
 <img width="389" height="74" alt="image" src="https://github.com/user-attachments/assets/e65442fd-8bfa-45a4-8591-941ac87794f9" />
 
-
+---
 # Keluar sistem
 <img width="722" height="46" alt="image" src="https://github.com/user-attachments/assets/856a634f-0fb8-4192-986d-91a2f91515df" />
-
-
-
-
 
 ---
 
