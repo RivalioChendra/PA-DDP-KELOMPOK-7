@@ -219,7 +219,7 @@ Akun Karyawan 'karyawan3' berhasil dihapus.
 
 ---
 
-### 📝 Registrasi Akun Baru
+### Registrasi Akun Baru
 
 Interface untuk membuat akun baru (Manager, Karyawan, atau Kostumer).
 
@@ -253,7 +253,7 @@ Pastikan semua file JSON berada dalam direktori yang sama dengan `ReservasiHotel
 
 ## Penjelasan Output Program
 
-### 📊 Tabel Reservasi
+### Tabel Reservasi
 Menampilkan semua data reservasi aktif dalam format tabel dengan kolom:
 - **No:** Nomor urut reservasi
 - **Nama Tamu:** Identitas pemesan
@@ -326,16 +326,16 @@ Maaf, semua kamar penuh (maksimal 10).
 Password minimal 4 karakter!
 ```
 
-# Input tidak valid (except ValueError)
+### Input tidak valid (except ValueError)
 <img width="255" height="64" alt="image" src="https://github.com/user-attachments/assets/483c5960-a00c-452b-9ca7-e65246739967" />
 
-# File tidak ditemukan (except KeyError)
+### File tidak ditemukan (except KeyError)
 <img width="297" height="61" alt="image" src="https://github.com/user-attachments/assets/b5daa58b-2b0e-4312-841f-90deff242079" />
 
-# Terganggunya Proses (except Keyboard Interrupt)
+### Terganggunya Proses (except Keyboard Interrupt)
 <img width="327" height="60" alt="image" src="https://github.com/user-attachments/assets/6eec1a12-0a90-4a00-8ac3-865aa676934b" />
 
-# Gangguan Lainnya (Exception as e)
+### Gangguan Lainnya (Exception as e)
 <img width="355" height="64" alt="image" src="https://github.com/user-attachments/assets/59ef116c-b8af-4270-9dc7-d2b0719f781d" />
 
 ---
@@ -352,7 +352,7 @@ Program menampilkan status pemrosesan dan delay untuk pengguna dalam percobaan l
 <img width="389" height="74" alt="image" src="https://github.com/user-attachments/assets/e65442fd-8bfa-45a4-8591-941ac87794f9" />
 
 ---
-# Keluar sistem
+### Keluar sistem
 <img width="722" height="46" alt="image" src="https://github.com/user-attachments/assets/856a634f-0fb8-4192-986d-91a2f91515df" />
 
 ---
