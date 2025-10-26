@@ -5,47 +5,14 @@ Ahmad Afif AlGhifary   (2509116002)<br>
 Brendhen Canafaro Lie  (2509116033)<br>
 Rivalio chendra        (2509116039)<br>
 
-# Sistem Reservasi Hotel 🏨
-
-## Tema & Anggota Kelompok
-
-**Tema:** Sistem Manajemen Reservasi Hotel Berbasis Console
-
-**Anggota Kelompok:**
-- [Nama Anggota 1] - [NIM]
-- [Nama Anggota 2] - [NIM]
-- [Nama Anggota 3] - [NIM]
 
 ## Flowchart
+![WhatsApp Image 2025-10-26 at 20 28 34_9034a9a6](https://github.com/user-attachments/assets/ddd77d69-92a6-42b4-8686-35e6a61fad95)
+![WhatsApp Image 2025-10-26 at 20 28 34_fc2f37cf](https://github.com/user-attachments/assets/65f427bd-354f-4190-abfc-5ed4cb9cfad3)
+![WhatsApp Image 2025-10-26 at 20 28 35_0ddb3719](https://github.com/user-attachments/assets/affb0975-9968-442a-bd50-99255d340758)
+![WhatsApp Image 2025-10-26 at 20 28 35_43b6b49f](https://github.com/user-attachments/assets/9a883d25-29ee-494d-81e4-92f40a4f04ad)
 
-```mermaid
-flowchart TD
-    A[Start] --> B[Login Menu]
-    B --> C{Pilih Role}
-    C -->|Manager| D[Login Manager]
-    C -->|Karyawan| E[Login Karyawan]
-    C -->|Kostumer| F[Login Kostumer]
-    C -->|Registrasi| G[Form Registrasi]
-    C -->|Hapus Akun| H[Verifikasi Admin]
-    
-    D --> I[Menu Manager]
-    I --> J[CRUD Reservasi]
-    I --> K[Lihat Ketersediaan]
-    
-    E --> L[Menu Karyawan]
-    L --> M[Lihat Reservasi]
-    L --> N[Lihat Ketersediaan]
-    
-    F --> O[Menu Kostumer]
-    O --> P[Pesan Kamar]
-    O --> Q[Kelola E-Money]
-    
-    J --> R{Kembali?}
-    M --> R
-    P --> R
-    R -->|Ya| B
-    R -->|Tidak| S[End]
-```
+
 
 ## Deskripsi Singkat Program
 
