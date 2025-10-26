@@ -7,10 +7,10 @@ Rivalio chendra        (2509116039)<br>
 
 
 ## FLOWCHART
-```
+
 ## Sistem Login
 ![WhatsApp Image 2025-10-26 at 20 28 34_9034a9a6](https://github.com/user-attachments/assets/ddd77d69-92a6-42b4-8686-35e6a61fad95)
-```
+
 ## Sistem Manager
 ![WhatsApp Image 2025-10-26 at 20 28 35_0ddb3719](https://github.com/user-attachments/assets/affb0975-9968-442a-bd50-99255d340758)
 ## Sistem Karyawan
@@ -40,23 +40,8 @@ Hotel memiliki dua tier pricing berdasarkan lantai (Lantai 1: Rp 300.000, Lantai
 
 Menu login yang menampilkan pilihan role dan fitur registrasi akun baru.
 
-```
-# ====================================================
-# =               Login Sistem                       =
-# ====================================================
-=            1.     Manager                          =
-=            2.     Karyawan                         =
-=            3.     Kostumer                         =
-=            4.     Buat Akun                        =
-=            5.     Hapus Akun                       =
-=            6.     Keluar                           =
-======================================================
-Masukkan pilihan: _
-```
+<img width="603" height="300" alt="Cuplikan layar 2025-10-26 204652" src="https://github.com/user-attachments/assets/8be0ce93-b254-49bb-bed8-57dcbc9cd4f9" />
 
-![Login Menu](https://via.placeholder.com/600x300/2c3e50/ffffff?text=Login+Menu+Sistem+Reservasi)
-
----
 
 ### 👨‍💼 Manager
 
@@ -64,60 +49,35 @@ Masukkan pilihan: _
 
 Interface lengkap untuk mengelola reservasi hotel.
 
-```
-====================================================
-=              Sistem Reservasi Hotel              =
-====================================================
-====================================================
-=            1.     Tambah Reservasi               =
-=            2.     Lihat Reservasi                =
-=            3.     Ubah Reservasi                 =
-=            4.     Hapus Reservasi                =
-=            5.     Lihat Ketersediaan Kamar       =
-=            6.     Kembali Halaman Login          =
-====================================================
-Masukkan pilihan: _
-```
+<img width="576" height="338" alt="Cuplikan layar 2025-10-26 204931" src="https://github.com/user-attachments/assets/26363b7a-6d87-46e9-ba32-013ec1bb3145" />
 
-![Manager Menu](https://via.placeholder.com/600x300/27ae60/ffffff?text=Menu+Manager)
+
 
 #### 2. Tambah Reservasi
 
 Fitur untuk menambahkan data reservasi baru dengan validasi ketersediaan kamar.
 
 **Input:**
-```
-Kamar tersedia: [5, 6, 8, 9, 10]
-Nama Tamu: John Doe
-Nomor Kamar (dari tersedia): 8
-Durasi (hari): 3
-```
+
+<img width="622" height="422" alt="Cuplikan layar 2025-10-26 205047" src="https://github.com/user-attachments/assets/4de3122b-532d-43c6-917f-d928b94a0e1d" />
+
+
 
 **Output:**
-```
-Reservasi berhasil! Total: Rp 1,800,000
-```
 
-![Tambah Reservasi](https://via.placeholder.com/600x350/3498db/ffffff?text=Tambah+Reservasi)
+<img width="422" height="266" alt="Cuplikan layar 2025-10-26 205122" src="https://github.com/user-attachments/assets/8e7e8096-1a2d-40c9-b3b2-528ae22bc91f" />
+
+
 
 #### 3. Lihat Reservasi
 
 Menampilkan semua data reservasi dalam bentuk tabel terstruktur.
 
 **Output:**
-```
-+------------------------------------+
-|    Daftar Reservasi Hotel         |
-+----+-------------+-------------+--------+---------------+
-| No | Nama Tamu   | Nomor Kamar | Durasi | Total Harga   |
-+----+-------------+-------------+--------+---------------+
-| 1  | Fred        | 1           | 1      | Rp 300,000    |
-| 2  | Jajajaja    | 2           | 2      | Rp 600,000    |
-| 3  | Brenden     | 3           | 3      | Rp 765,000    |
-| 4  | Jaajaaa     | 7           | 1      | Rp 510,000    |
-| 5  | John Doe    | 8           | 3      | Rp 1,800,000  |
-+----+-------------+-------------+--------+---------------+
-```
+
+<img width="672" height="610" alt="Cuplikan layar 2025-10-26 205205" src="https://github.com/user-attachments/assets/02302c51-0fb5-4e1f-82e2-a2e34b11469b" />
+
+
 
 ![Tabel Reservasi](https://via.placeholder.com/650x300/9b59b6/ffffff?text=Tabel+Reservasi+Hotel)
 
@@ -126,104 +86,69 @@ Menampilkan semua data reservasi dalam bentuk tabel terstruktur.
 Mengupdate data reservasi yang sudah ada (nama, kamar, durasi).
 
 **Input:**
-```
-Nomor Reservasi untuk diubah: 3
-Nama Tamu baru: Brandon Smith
-Nomor Kamar baru: 6
-Durasi baru: 5
-```
+
+<img width="674" height="671" alt="Cuplikan layar 2025-10-26 205526" src="https://github.com/user-attachments/assets/85336f31-f7af-436a-a756-44f09673e64d" />
+
+
 
 **Output:**
-```
-Reservasi diubah!
-```
 
-![Ubah Reservasi](https://via.placeholder.com/600x300/e67e22/ffffff?text=Ubah+Data+Reservasi)
+Reservasi diubah!
+
+<img width="360" height="197" alt="Cuplikan layar 2025-10-26 205553" src="https://github.com/user-attachments/assets/d1a2e30b-a284-4db2-9c7c-2c1d772c6080" />
+
 
 #### 5. Hapus Reservasi
 
 Menghapus reservasi dan otomatis membebaskan kamar.
 
 **Input:**
-```
-Nomor Reservasi untuk dihapus: 2
-```
+
+<img width="682" height="343" alt="Cuplikan layar 2025-10-26 205628" src="https://github.com/user-attachments/assets/018fc903-26a0-402e-af2e-e368fecd658c" />
+
+
 
 **Output:**
-```
-Reservasi dihapus!
-(Kamar 2 otomatis berubah status menjadi "Tersedia")
-```
 
-![Hapus Reservasi](https://via.placeholder.com/600x300/e74c3c/ffffff?text=Hapus+Reservasi)
+<img width="439" height="123" alt="Cuplikan layar 2025-10-26 205653" src="https://github.com/user-attachments/assets/4e339dc9-61ae-4e9a-b1cf-e6a9a739d14f" />
+
+(Kamar 4 otomatis berubah status menjadi "Tersedia")
+
+
 
 #### 6. Lihat Ketersediaan Kamar
 
 Menampilkan status real-time semua kamar hotel.
 
 **Output:**
-```
-+-------------------------+
-|     Status Kamar        |
-+--------+----------------+
-| Kamar  |     Status     |
-+--------+----------------+
-| 1      | Ditempati      |
-| 2      | Tersedia       |
-| 3      | Ditempati      |
-| 4      | Ditempati      |
-| 5      | Tersedia       |
-| 6      | Tersedia       |
-| 7      | Ditempati      |
-| 8      | Tersedia       |
-| 9      | Tersedia       |
-| 10     | Tersedia       |
-+--------+----------------+
-```
 
-![Status Kamar](https://via.placeholder.com/500x350/16a085/ffffff?text=Status+Ketersediaan+Kamar)
+<img width="626" height="669" alt="Cuplikan layar 2025-10-26 205742" src="https://github.com/user-attachments/assets/4be05839-da12-4f03-b24f-cb38edf67216" />
 
----
+
+
+
 
 ### 👷 Karyawan
 
 #### 1. Menu Utama Karyawan
 
-Menu read-only untuk karyawan melihat informasi hotel.
+Menu untuk karyawan melihat informasi hotel.
 
-```
-====================================================
-=              Sistem Reservasi Hotel              =
-====================================================
-====================================================
-=            1.     Lihat Reservasi                =
-=            2.     Lihat Ketersediaan Kamar       =
-=            3.     Kembali Halaman Login          =
-====================================================
-Masukkan pilihan: _
-```
 
-![Karyawan Menu](https://via.placeholder.com/600x250/f39c12/ffffff?text=Menu+Karyawan)
+<img width="570" height="253" alt="image" src="https://github.com/user-attachments/assets/7bb9cec8-ed07-404d-af73-58cdb7f5fc0a" />
+
+
 
 #### 2. Lihat Reservasi (Karyawan)
 
 Output sama dengan Manager, namun tanpa akses edit/hapus.
 
 **Output:**
-```
-+------------------------------------+
-|    Daftar Reservasi Hotel         |
-+----+-------------+-------------+--------+---------------+
-| No | Nama Tamu   | Nomor Kamar | Durasi | Total Harga   |
-+----+-------------+-------------+--------+---------------+
-| 1  | Fred        | 1           | 1      | Rp 300,000    |
-| 2  | Jajajaja    | 2           | 2      | Rp 600,000    |
-+----+-------------+-------------+--------+---------------+
-```
 
-![Karyawan View](https://via.placeholder.com/650x250/d35400/ffffff?text=View+Reservasi+Karyawan)
+<img width="678" height="544" alt="image" src="https://github.com/user-attachments/assets/ea0904bd-76b3-4f8c-92d6-5a3fa5faf791" />
 
----
+
+
 
 ### 🧳 Kostumer
 
@@ -231,181 +156,93 @@ Output sama dengan Manager, namun tanpa akses edit/hapus.
 
 Interface self-service untuk pemesanan dan manajemen saldo.
 
-```
-====================================================
-=              Menu Kostumer                       =
-====================================================
-=            1.     Pesan Kamar                    =
-=            2.     Tambah Saldo E-Money           =
-=            3.     Lihat Saldo E-Money            =
-=            4.     Kembali Halaman Login          =
-====================================================
-Masukkan pilihan: _
-```
+<img width="587" height="262" alt="image" src="https://github.com/user-attachments/assets/1235bdc5-16cb-4f38-bc5c-6d50f610b007" />
 
-![Kostumer Menu](https://via.placeholder.com/600x300/1abc9c/ffffff?text=Menu+Kostumer)
+
 
 #### 2. Pesan Kamar
 
 Proses booking kamar dengan pembayaran e-money dan diskon VIP.
 
 **Input:**
-```
+
 Ingin memesan? (Iya/Keluar): iya
 
-+-------------------------------------+
-|      Daftar Harga Kamar            |
-+----+--------+--------+------------------+
-| No | Kamar  | Lantai | Harga per Malam |
-+----+--------+--------+------------------+
-| 1  | 1 - 5  | 1      | Rp 300.000      |
-| 2  | 6 - 10 | 2      | Rp 600.000      |
-+----+--------+--------+------------------+
+<img width="523" height="694" alt="image" src="https://github.com/user-attachments/assets/f2898c4c-5529-4356-8be1-83a9670a7943" />
 
-Kamar tersedia: [5, 6, 8, 9, 10]
-Nama Anda: Sarah Wilson
-Pilih Kamar: 9
-Durasi (hari): 2
-```
 
-**Output (Akun VIP):**
-```
-Selamat! Sebagai akun VIP, Anda mendapat diskon 15%: Rp 180000
-Saldo Anda sekarang: Rp 820,000
 
-Pemesanan berhasil! Total: Rp 1,020,000. 
-Hubungi staff untuk konfirmasi.
-```
-
-![Pesan Kamar](https://via.placeholder.com/600x350/8e44ad/ffffff?text=Proses+Pemesanan+Kamar)
 
 #### 3. Struk Pembelian Digital
 
 Struk otomatis setelah pembayaran berhasil.
 
 **Output:**
-```
-====================================================
-=                Pembelian Kamar                   =
-====================================================
-    Nama            : Sarah Wilson
-    Tanggal         : 2025-10-26
-    Lantai Kamar    : 2
-    Harga Per Malam : Rp 600,000
-    Durasi          : 2 Hari
-====================================================
-=   Total            : Rp 1,020,000
-====================================================
-= Terima Kasih atas Kunjungan Anda!                =
-= Silakan Simpan Struk Ini sebagai Bukti.          =
-====================================================
-```
 
-![Struk Digital](https://via.placeholder.com/550x400/c0392b/ffffff?text=Struk+Pembelian)
+<img width="610" height="403" alt="image" src="https://github.com/user-attachments/assets/3abd8fd8-df16-4554-8ebb-7d243761eb5d" />
+
 
 #### 4. Tambah Saldo E-Money
 
 Top-up saldo dengan validasi minimum dan maksimum.
 
 **Input:**
-```
-Masukkan jumlah saldo yang ingin ditambah: 200000
-```
+
+<img width="630" height="210" alt="image" src="https://github.com/user-attachments/assets/4067b65d-db4f-49ba-962b-a659ecce8e4d" />
+
+
 
 **Output:**
-```
-Saldo berhasil ditambahkan!
-Saldo Anda sekarang: Rp 700,000
-```
 
-![Top Up Saldo](https://via.placeholder.com/600x250/2ecc71/ffffff?text=Tambah+Saldo+E-Money)
+<img width="576" height="325" alt="image" src="https://github.com/user-attachments/assets/dab2f25e-cef2-4eab-bd70-0f44659afed7" />
+
 
 #### 5. Lihat Saldo E-Money
 
 Cek saldo terkini.
 
 **Output:**
-```
-Saldo Anda: Rp 700,000
-```
 
-![Cek Saldo](https://via.placeholder.com/500x200/27ae60/ffffff?text=Saldo+E-Money)
+<img width="569" height="290" alt="image" src="https://github.com/user-attachments/assets/3bed6b76-91ee-47b8-9162-e5d06f628a78" />
+
+
 
 ---
 
-### 🔧 Administrator
+###  Administrasi
 
 #### 1. Hapus Akun
 
-Fitur khusus admin untuk menghapus akun dengan verifikasi password.
-
 **Input:**
-```
+
 Masukkan Password Admin: unmul123
 
-====================================================
-=                Hapus Akun                       =
-====================================================
-=            1.     Hapus Akun Manager            =
-=            2.     Hapus Akun Karyawan           =
-=            3.     Hapus Akun Kostumer           =
-=            4.     Kembali                       =
-====================================================
-Masukkan pilihan: 2
+<img width="602" height="331" alt="image" src="https://github.com/user-attachments/assets/89642cd0-323f-4f26-84c1-1744f2029a3f" />
 
-Masukkan Username Karyawan yang ingin dihapus: karyawan2
-```
+
 
 **Output:**
-```
-Akun Karyawan 'karyawan2' berhasil dihapus.
-```
 
-![Hapus Akun](https://via.placeholder.com/600x300/34495e/ffffff?text=Admin+Hapus+Akun)
+Akun Karyawan 'karyawan3' berhasil dihapus.
 
----
+
 
 ### 📝 Registrasi Akun Baru
 
 Interface untuk membuat akun baru (Manager, Karyawan, atau Kostumer).
 
 **Input:**
-```
-====================================================
-=                Registrasi Akun                   =
-====================================================
-=            1.     Manager                        =
-=            2.     Karyawan                       =
-=            3.     Kostumer                       =
-=            4.     Kembali Halaman Login          =
-====================================================
-Masukkan pilihan: 3
 
-Masukkan username baru untuk Kostumer: newuser
-Masukkan password baru: ****
-Pilih tipe akun (VIP/Reguler): vip
-```
+<img width="582" height="335" alt="image" src="https://github.com/user-attachments/assets/f774089b-3744-4d9d-a0d3-bb1818974a4f" />
+
+
 
 **Output:**
-```
-Registrasi sukses! Akun Kostumer VIP baru telah ditambahkan.
-```
 
-![Registrasi](https://via.placeholder.com/600x350/95a5a6/ffffff?text=Form+Registrasi)
+Registrasi sukses! Akun Karyawan baru telah ditambahkan.
 
-## Persyaratan Sistem
 
-### Software Requirements
-- Python 3.7 atau lebih tinggi
-- Terminal/Command Prompt dengan dukungan UTF-8
-- Windows/Linux/MacOS
 
-### Dependencies
-Program memerlukan beberapa library eksternal yang harus diinstal terlebih dahulu:
-
-```bash
-pip install prettytable pwinput
-```
 
 **Library yang Digunakan:**
 - `prettytable` - Membuat tampilan tabel data yang rapi dan terstruktur
@@ -418,56 +255,55 @@ pip install prettytable pwinput
 ### 3. Struktur File
 Pastikan semua file JSON berada dalam direktori yang sama dengan `ReservasiHotel.py`:
 
-```
 <img width="160" height="160" alt="image" src="https://github.com/user-attachments/assets/23440c61-db44-459d-8afe-a118bf345ad3" />
 
-```
+
 
 ## Cara Menjalankan Aplikasi
 
 ### Menjalankan Program
-```bash
+bash
 python ReservasiHotel.py
-```
+
 
 ### Login Credentials (Default)
 
 **Manager:**
-```
+
 Username: manager1
 Password: 111
-```
+
 
 **Karyawan:**
-```
+
 Username: karyawan1
 Password: 111
-```
+
 
 **Kostumer VIP:**
-```
+
 Username: vip1
 Password: vip123
 E-Money: Rp 500.000
-```
+
 
 **Kostumer Reguler:**
-```
+
 Username: reguler1
 Password: reg123
 E-Money: Rp 100.000
-```
+
 
 **Admin (Hapus Akun):**
-```
+
 Password: unmul123
-```
+
 
 ## Contoh Penggunaan
 
 ### Skenario 1: Manager Menambah Reservasi
 
-```python
+python
 # Login sebagai Manager
 Username: manager1
 Password: 111
@@ -482,11 +318,11 @@ Durasi (hari): 2
 
 # Output
 Reservasi berhasil! Total: Rp 600,000
-```
+
 
 ### Skenario 2: Kostumer VIP Memesan Kamar
 
-```python
+python
 # Login sebagai Kostumer VIP
 Username: vip1
 Password: vip123
@@ -516,11 +352,11 @@ Total akhir: Rp 1,530,000
 ====================================================
 =   Total            : Rp 1,530,000
 ====================================================
-```
+
 
 ### Skenario 3: Karyawan Melihat Status Kamar
 
-```python
+python
 # Login sebagai Karyawan
 Username: karyawan1
 Password: 111
@@ -538,7 +374,7 @@ Masukkan pilihan: 2
 |    4   |  Tersedia   |
 |   ...  |     ...     |
 +--------+-------------+
-```
+
 
 ## Penjelasan Output Program
 
@@ -551,7 +387,7 @@ Menampilkan semua data reservasi aktif dalam format tabel dengan kolom:
 - **Total Harga:** Biaya total dengan format currency (Rp)
 
 **Contoh Output:**
-```
+
 +------------------------------------+
 |    Daftar Reservasi Hotel         |
 +----+-------------+-------------+--------+---------------+
@@ -561,11 +397,11 @@ Menampilkan semua data reservasi aktif dalam format tabel dengan kolom:
 | 2  | Jajajaja    | 2           | 2      | Rp 600,000    |
 | 3  | Brenden     | 3           | 3      | Rp 765,000    |
 +----+-------------+-------------+--------+---------------+
-```
+
 
 ![Output Tabel Reservasi](https://via.placeholder.com/650x300/3498db/ffffff?text=Output+Tabel+Reservasi)
 
----
+
 
 ### 🏨 Tabel Status Kamar
 Visualisasi real-time ketersediaan 10 kamar hotel:
@@ -573,7 +409,7 @@ Visualisasi real-time ketersediaan 10 kamar hotel:
 - **Status:** "Tersedia" atau "Ditempati"
 
 **Contoh Output:**
-```
+
 +-------------------------+
 |     Status Kamar        |
 +--------+----------------+
@@ -590,11 +426,11 @@ Visualisasi real-time ketersediaan 10 kamar hotel:
 | 9      | Tersedia       |
 | 10     | Tersedia       |
 +--------+----------------+
-```
+
 
 ![Output Status Kamar](https://via.placeholder.com/500x350/27ae60/ffffff?text=Output+Status+Kamar)
 
----
+
 
 ### 💰 Tabel Harga Kamar
 Informasi pricing berdasarkan lokasi:
