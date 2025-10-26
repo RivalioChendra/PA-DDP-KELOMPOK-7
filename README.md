@@ -34,7 +34,7 @@ Hotel memiliki dua tier pricing berdasarkan lantai (Lantai 1: Rp 300.000, Lantai
 
 ## Fitur Program Berdasarkan Role
 
-### 🔐 Halaman Login Utama
+### Halaman Login Utama
 
 Menu login yang menampilkan pilihan role dan fitur registrasi akun baru.
 
@@ -408,28 +408,10 @@ pip install prettytable pwinput
 **Library yang Digunakan:**
 - `prettytable` - Membuat tampilan tabel data yang rapi dan terstruktur
 - `pwinput` - Input password tersembunyi untuk keamanan
-- `json` - Parsing dan manipulasi data JSON (built-in)
-- `os` - Operasi sistem seperti clear screen (built-in)
-- `time` - Delay dan timestamp (built-in)
-- `datetime` - Menangani data tanggal (built-in)
-
-## Instalasi & Konfigurasi
-
-### 1. Clone Repository
-```bash
-git clone [URL_REPOSITORY]
-cd [NAMA_FOLDER]
-```
-
-### 2. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-Atau install manual:
-```bash
-pip install prettytable pwinput
-```
+- `json` - Parsing dan manipulasi data JSON 
+- `os` - Operasi sistem seperti clear screen
+- `time` - Delay dan timestamp
+- `datetime` - Menangani data tanggal
 
 ### 3. Struktur File
 Pastikan semua file JSON berada dalam direktori yang sama dengan `ReservasiHotel.py`:
