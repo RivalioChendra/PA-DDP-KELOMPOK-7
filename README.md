@@ -34,42 +34,362 @@ Hotel memiliki dua tier pricing berdasarkan lantai (Lantai 1: Rp 300.000, Lantai
 
 ## Fitur Program Berdasarkan Role
 
-### Manager
-- **CRUD Reservasi Lengkap**
-  - Tambah reservasi baru dengan validasi ketersediaan kamar
-  - Lihat semua data reservasi dalam format tabel
-  - Update data reservasi (nama tamu, kamar, durasi)
-  - Hapus reservasi dan otomatis membebaskan kamar
+### 🔐 Halaman Login Utama
 
-- **Monitor Ketersediaan Kamar**
-  - Cek status real-time semua kamar (Tersedia/Ditempati)
-  - Visualisasi dalam bentuk tabel terstruktur
+Menu login yang menampilkan pilihan role dan fitur registrasi akun baru.
 
-### Karyawan
-- **Akses Baca (Read-Only)**
-  - Lihat daftar reservasi hotel
-  - Cek ketersediaan kamar
-  - Membantu kostumer dengan informasi yang dibutuhkan
+```
+# ====================================================
+# =               Login Sistem                       =
+# ====================================================
+=            1.     Manager                          =
+=            2.     Karyawan                         =
+=            3.     Kostumer                         =
+=            4.     Buat Akun                        =
+=            5.     Hapus Akun                       =
+=            6.     Keluar                           =
+======================================================
+Masukkan pilihan: _
+```
 
-### Kostumer
-- **Pemesanan Kamar Self-Service**
-  - Browse kamar tersedia dengan harga transparan
-  - Pesan kamar sesuai durasi kebutuhan
-  - Pembayaran otomatis menggunakan e-money
+![Login Menu](https://via.placeholder.com/600x300/2c3e50/ffffff?text=Login+Menu+Sistem+Reservasi)
 
-- **Manajemen E-Money**
-  - Top-up saldo (minimum Rp 50.000, maksimum Rp 1.000.000)
-  - Cek saldo real-time
-  - Riwayat transaksi dalam struk digital
+---
 
-- **Member Benefits**
-  - Akun VIP mendapat diskon 15% otomatis
-  - Struk pembelian digital dengan detail lengkap
+### 👨‍💼 Manager
 
-### Administrator
-- **Manajemen Akun Global**
-  - Hapus akun Manager, Karyawan, atau Kostumer
-  - Kontrol penuh dengan verifikasi password admin
+#### 1. Menu Utama Manager
+
+Interface lengkap untuk mengelola reservasi hotel.
+
+```
+====================================================
+=              Sistem Reservasi Hotel              =
+====================================================
+====================================================
+=            1.     Tambah Reservasi               =
+=            2.     Lihat Reservasi                =
+=            3.     Ubah Reservasi                 =
+=            4.     Hapus Reservasi                =
+=            5.     Lihat Ketersediaan Kamar       =
+=            6.     Kembali Halaman Login          =
+====================================================
+Masukkan pilihan: _
+```
+
+![Manager Menu](https://via.placeholder.com/600x300/27ae60/ffffff?text=Menu+Manager)
+
+#### 2. Tambah Reservasi
+
+Fitur untuk menambahkan data reservasi baru dengan validasi ketersediaan kamar.
+
+**Input:**
+```
+Kamar tersedia: [5, 6, 8, 9, 10]
+Nama Tamu: John Doe
+Nomor Kamar (dari tersedia): 8
+Durasi (hari): 3
+```
+
+**Output:**
+```
+Reservasi berhasil! Total: Rp 1,800,000
+```
+
+![Tambah Reservasi](https://via.placeholder.com/600x350/3498db/ffffff?text=Tambah+Reservasi)
+
+#### 3. Lihat Reservasi
+
+Menampilkan semua data reservasi dalam bentuk tabel terstruktur.
+
+**Output:**
+```
++------------------------------------+
+|    Daftar Reservasi Hotel         |
++----+-------------+-------------+--------+---------------+
+| No | Nama Tamu   | Nomor Kamar | Durasi | Total Harga   |
++----+-------------+-------------+--------+---------------+
+| 1  | Fred        | 1           | 1      | Rp 300,000    |
+| 2  | Jajajaja    | 2           | 2      | Rp 600,000    |
+| 3  | Brenden     | 3           | 3      | Rp 765,000    |
+| 4  | Jaajaaa     | 7           | 1      | Rp 510,000    |
+| 5  | John Doe    | 8           | 3      | Rp 1,800,000  |
++----+-------------+-------------+--------+---------------+
+```
+
+![Tabel Reservasi](https://via.placeholder.com/650x300/9b59b6/ffffff?text=Tabel+Reservasi+Hotel)
+
+#### 4. Ubah Reservasi
+
+Mengupdate data reservasi yang sudah ada (nama, kamar, durasi).
+
+**Input:**
+```
+Nomor Reservasi untuk diubah: 3
+Nama Tamu baru: Brandon Smith
+Nomor Kamar baru: 6
+Durasi baru: 5
+```
+
+**Output:**
+```
+Reservasi diubah!
+```
+
+![Ubah Reservasi](https://via.placeholder.com/600x300/e67e22/ffffff?text=Ubah+Data+Reservasi)
+
+#### 5. Hapus Reservasi
+
+Menghapus reservasi dan otomatis membebaskan kamar.
+
+**Input:**
+```
+Nomor Reservasi untuk dihapus: 2
+```
+
+**Output:**
+```
+Reservasi dihapus!
+(Kamar 2 otomatis berubah status menjadi "Tersedia")
+```
+
+![Hapus Reservasi](https://via.placeholder.com/600x300/e74c3c/ffffff?text=Hapus+Reservasi)
+
+#### 6. Lihat Ketersediaan Kamar
+
+Menampilkan status real-time semua kamar hotel.
+
+**Output:**
+```
++-------------------------+
+|     Status Kamar        |
++--------+----------------+
+| Kamar  |     Status     |
++--------+----------------+
+| 1      | Ditempati      |
+| 2      | Tersedia       |
+| 3      | Ditempati      |
+| 4      | Ditempati      |
+| 5      | Tersedia       |
+| 6      | Tersedia       |
+| 7      | Ditempati      |
+| 8      | Tersedia       |
+| 9      | Tersedia       |
+| 10     | Tersedia       |
++--------+----------------+
+```
+
+![Status Kamar](https://via.placeholder.com/500x350/16a085/ffffff?text=Status+Ketersediaan+Kamar)
+
+---
+
+### 👷 Karyawan
+
+#### 1. Menu Utama Karyawan
+
+Menu read-only untuk karyawan melihat informasi hotel.
+
+```
+====================================================
+=              Sistem Reservasi Hotel              =
+====================================================
+====================================================
+=            1.     Lihat Reservasi                =
+=            2.     Lihat Ketersediaan Kamar       =
+=            3.     Kembali Halaman Login          =
+====================================================
+Masukkan pilihan: _
+```
+
+![Karyawan Menu](https://via.placeholder.com/600x250/f39c12/ffffff?text=Menu+Karyawan)
+
+#### 2. Lihat Reservasi (Karyawan)
+
+Output sama dengan Manager, namun tanpa akses edit/hapus.
+
+**Output:**
+```
++------------------------------------+
+|    Daftar Reservasi Hotel         |
++----+-------------+-------------+--------+---------------+
+| No | Nama Tamu   | Nomor Kamar | Durasi | Total Harga   |
++----+-------------+-------------+--------+---------------+
+| 1  | Fred        | 1           | 1      | Rp 300,000    |
+| 2  | Jajajaja    | 2           | 2      | Rp 600,000    |
++----+-------------+-------------+--------+---------------+
+```
+
+![Karyawan View](https://via.placeholder.com/650x250/d35400/ffffff?text=View+Reservasi+Karyawan)
+
+---
+
+### 🧳 Kostumer
+
+#### 1. Menu Utama Kostumer
+
+Interface self-service untuk pemesanan dan manajemen saldo.
+
+```
+====================================================
+=              Menu Kostumer                       =
+====================================================
+=            1.     Pesan Kamar                    =
+=            2.     Tambah Saldo E-Money           =
+=            3.     Lihat Saldo E-Money            =
+=            4.     Kembali Halaman Login          =
+====================================================
+Masukkan pilihan: _
+```
+
+![Kostumer Menu](https://via.placeholder.com/600x300/1abc9c/ffffff?text=Menu+Kostumer)
+
+#### 2. Pesan Kamar
+
+Proses booking kamar dengan pembayaran e-money dan diskon VIP.
+
+**Input:**
+```
+Ingin memesan? (Iya/Keluar): iya
+
++-------------------------------------+
+|      Daftar Harga Kamar            |
++----+--------+--------+------------------+
+| No | Kamar  | Lantai | Harga per Malam |
++----+--------+--------+------------------+
+| 1  | 1 - 5  | 1      | Rp 300.000      |
+| 2  | 6 - 10 | 2      | Rp 600.000      |
++----+--------+--------+------------------+
+
+Kamar tersedia: [5, 6, 8, 9, 10]
+Nama Anda: Sarah Wilson
+Pilih Kamar: 9
+Durasi (hari): 2
+```
+
+**Output (Akun VIP):**
+```
+Selamat! Sebagai akun VIP, Anda mendapat diskon 15%: Rp 180000
+Saldo Anda sekarang: Rp 820,000
+
+Pemesanan berhasil! Total: Rp 1,020,000. 
+Hubungi staff untuk konfirmasi.
+```
+
+![Pesan Kamar](https://via.placeholder.com/600x350/8e44ad/ffffff?text=Proses+Pemesanan+Kamar)
+
+#### 3. Struk Pembelian Digital
+
+Struk otomatis setelah pembayaran berhasil.
+
+**Output:**
+```
+====================================================
+=                Pembelian Kamar                   =
+====================================================
+    Nama            : Sarah Wilson
+    Tanggal         : 2025-10-26
+    Lantai Kamar    : 2
+    Harga Per Malam : Rp 600,000
+    Durasi          : 2 Hari
+====================================================
+=   Total            : Rp 1,020,000
+====================================================
+= Terima Kasih atas Kunjungan Anda!                =
+= Silakan Simpan Struk Ini sebagai Bukti.          =
+====================================================
+```
+
+![Struk Digital](https://via.placeholder.com/550x400/c0392b/ffffff?text=Struk+Pembelian)
+
+#### 4. Tambah Saldo E-Money
+
+Top-up saldo dengan validasi minimum dan maksimum.
+
+**Input:**
+```
+Masukkan jumlah saldo yang ingin ditambah: 200000
+```
+
+**Output:**
+```
+Saldo berhasil ditambahkan!
+Saldo Anda sekarang: Rp 700,000
+```
+
+![Top Up Saldo](https://via.placeholder.com/600x250/2ecc71/ffffff?text=Tambah+Saldo+E-Money)
+
+#### 5. Lihat Saldo E-Money
+
+Cek saldo terkini.
+
+**Output:**
+```
+Saldo Anda: Rp 700,000
+```
+
+![Cek Saldo](https://via.placeholder.com/500x200/27ae60/ffffff?text=Saldo+E-Money)
+
+---
+
+### 🔧 Administrator
+
+#### 1. Hapus Akun
+
+Fitur khusus admin untuk menghapus akun dengan verifikasi password.
+
+**Input:**
+```
+Masukkan Password Admin: unmul123
+
+====================================================
+=                Hapus Akun                       =
+====================================================
+=            1.     Hapus Akun Manager            =
+=            2.     Hapus Akun Karyawan           =
+=            3.     Hapus Akun Kostumer           =
+=            4.     Kembali                       =
+====================================================
+Masukkan pilihan: 2
+
+Masukkan Username Karyawan yang ingin dihapus: karyawan2
+```
+
+**Output:**
+```
+Akun Karyawan 'karyawan2' berhasil dihapus.
+```
+
+![Hapus Akun](https://via.placeholder.com/600x300/34495e/ffffff?text=Admin+Hapus+Akun)
+
+---
+
+### 📝 Registrasi Akun Baru
+
+Interface untuk membuat akun baru (Manager, Karyawan, atau Kostumer).
+
+**Input:**
+```
+====================================================
+=                Registrasi Akun                   =
+====================================================
+=            1.     Manager                        =
+=            2.     Karyawan                       =
+=            3.     Kostumer                       =
+=            4.     Kembali Halaman Login          =
+====================================================
+Masukkan pilihan: 3
+
+Masukkan username baru untuk Kostumer: newuser
+Masukkan password baru: ****
+Pilih tipe akun (VIP/Reguler): vip
+```
+
+**Output:**
+```
+Registrasi sukses! Akun Kostumer VIP baru telah ditambahkan.
+```
+
+![Registrasi](https://via.placeholder.com/600x350/95a5a6/ffffff?text=Form+Registrasi)
 
 ## Persyaratan Sistem
 
@@ -245,7 +565,7 @@ Masukkan pilihan: 2
 
 ## Penjelasan Output Program
 
-### Tabel Reservasi
+### 📊 Tabel Reservasi
 Menampilkan semua data reservasi aktif dalam format tabel dengan kolom:
 - **No:** Nomor urut reservasi
 - **Nama Tamu:** Identitas pemesan
@@ -253,17 +573,74 @@ Menampilkan semua data reservasi aktif dalam format tabel dengan kolom:
 - **Durasi:** Lama menginap dalam hari
 - **Total Harga:** Biaya total dengan format currency (Rp)
 
-### Tabel Status Kamar
+**Contoh Output:**
+```
++------------------------------------+
+|    Daftar Reservasi Hotel         |
++----+-------------+-------------+--------+---------------+
+| No | Nama Tamu   | Nomor Kamar | Durasi | Total Harga   |
++----+-------------+-------------+--------+---------------+
+| 1  | Fred        | 1           | 1      | Rp 300,000    |
+| 2  | Jajajaja    | 2           | 2      | Rp 600,000    |
+| 3  | Brenden     | 3           | 3      | Rp 765,000    |
++----+-------------+-------------+--------+---------------+
+```
+
+![Output Tabel Reservasi](https://via.placeholder.com/650x300/3498db/ffffff?text=Output+Tabel+Reservasi)
+
+---
+
+### 🏨 Tabel Status Kamar
 Visualisasi real-time ketersediaan 10 kamar hotel:
 - **Kamar:** Nomor kamar (1-10)
 - **Status:** "Tersedia" atau "Ditempati"
 
-### Tabel Harga Kamar
+**Contoh Output:**
+```
++-------------------------+
+|     Status Kamar        |
++--------+----------------+
+| Kamar  |     Status     |
++--------+----------------+
+| 1      | Ditempati      |
+| 2      | Tersedia       |
+| 3      | Ditempati      |
+| 4      | Ditempati      |
+| 5      | Tersedia       |
+| 6      | Tersedia       |
+| 7      | Ditempati      |
+| 8      | Tersedia       |
+| 9      | Tersedia       |
+| 10     | Tersedia       |
++--------+----------------+
+```
+
+![Output Status Kamar](https://via.placeholder.com/500x350/27ae60/ffffff?text=Output+Status+Kamar)
+
+---
+
+### 💰 Tabel Harga Kamar
 Informasi pricing berdasarkan lokasi:
 - **Lantai 1 (Kamar 1-5):** Rp 300.000/malam
 - **Lantai 2 (Kamar 6-10):** Rp 600.000/malam
 
-### Struk Pembelian
+**Contoh Output:**
+```
++-------------------------------------+
+|      Daftar Harga Kamar            |
++----+--------+--------+------------------+
+| No | Kamar  | Lantai | Harga per Malam |
++----+--------+--------+------------------+
+| 1  | 1 - 5  | 1      | Rp 300.000      |
+| 2  | 6 - 10 | 2      | Rp 600.000      |
++----+--------+--------+------------------+
+```
+
+![Output Tabel Harga](https://via.placeholder.com/600x250/e67e22/ffffff?text=Output+Daftar+Harga)
+
+---
+
+### 🧾 Struk Pembelian
 Dokumen digital yang diberikan setelah pembayaran berhasil, berisi:
 - Nama tamu
 - Tanggal transaksi
@@ -271,6 +648,111 @@ Dokumen digital yang diberikan setelah pembayaran berhasil, berisi:
 - Harga per malam
 - Durasi menginap
 - Total biaya (sudah termasuk diskon jika VIP)
+
+**Contoh Output:**
+```
+====================================================
+=                Pembelian Kamar                   =
+====================================================
+    Nama            : Sarah Wilson
+    Tanggal         : 2025-10-26
+    Lantai Kamar    : 2
+    Harga Per Malam : Rp 600,000
+    Durasi          : 2 Hari
+====================================================
+=   Total            : Rp 1,020,000
+====================================================
+= Terima Kasih atas Kunjungan Anda!                =
+= Silakan Simpan Struk Ini sebagai Bukti.          =
+====================================================
+```
+
+![Output Struk](https://via.placeholder.com/550x400/9b59b6/ffffff?text=Output+Struk+Pembelian)
+
+---
+
+### ✅ Pesan Sukses
+Output konfirmasi untuk berbagai operasi berhasil.
+
+**Contoh Output:**
+```
+# Reservasi berhasil
+Reservasi berhasil! Total: Rp 1,800,000
+
+# Login berhasil
+Login sukses!
+
+# Registrasi berhasil
+Registrasi sukses! Akun Kostumer VIP baru telah ditambahkan.
+
+# Saldo ditambahkan
+Saldo berhasil ditambahkan!
+Saldo Anda sekarang: Rp 700,000
+
+# Akun dihapus
+Akun Karyawan 'karyawan2' berhasil dihapus.
+
+# Data diubah
+Reservasi diubah!
+
+# Data dihapus
+Reservasi dihapus!
+```
+
+![Output Success](https://via.placeholder.com/600x300/2ecc71/ffffff?text=Pesan+Sukses)
+
+---
+
+### ❌ Pesan Error
+Output peringatan untuk berbagai kondisi error atau validasi.
+
+**Contoh Output:**
+```
+# Login gagal
+Username atau password salah coba lagi! (10 Maksimal)
+Percobaan 3
+
+# Kamar tidak tersedia
+Kamar tidak tersedia! Coba lagi.
+
+# Saldo tidak cukup
+Uang Tidak Cukup
+
+# Hotel penuh
+Maaf, semua kamar penuh (maksimal 10).
+
+# Input tidak valid
+Input harus angka!
+
+# Password terlalu pendek
+Password minimal 4 karakter!
+
+# File tidak ditemukan
+File DataReservasi.json tidak ditemukan. Membuat file kosong.
+```
+
+![Output Error](https://via.placeholder.com/600x300/e74c3c/ffffff?text=Pesan+Error)
+
+---
+
+### 🔄 Status Loading & Delay
+Program menampilkan status pemrosesan dan delay untuk user experience.
+
+**Contoh Output:**
+```
+# Menampilkan struk (5 detik)
+[Struk ditampilkan selama 5 detik...]
+
+# Penalty login (30-90 detik)
+Tunggu 30 detik untuk mencoba lagi
+[Countdown timer...]
+
+# Keluar sistem
+Keluar dari sistem...
+[Loading 1 detik...]
+```
+
+![Output Loading](https://via.placeholder.com/600x200/95a5a6/ffffff?text=Status+Loading)
 
 ## Keamanan & Validasi
 
