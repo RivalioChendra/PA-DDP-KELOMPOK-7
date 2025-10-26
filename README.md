@@ -269,8 +269,8 @@ Menampilkan semua data reservasi aktif dalam format tabel dengan kolom:
 - **Durasi:** Lama menginap dalam hari
 - **Total Harga:** Biaya total dengan format currency (Rp)
 
-**Contoh Output:**
-<img width="813" height="354" alt="image" src="https://github.com/user-attachments/assets/64f93565-20da-4e95-ab02-7b50c26808ad" />
+**Contoh Output:** <br>
+<img width="813" height="354" alt="image" src="https://github.com/user-attachments/assets/64f93565-20da-4e95-ab02-7b50c26808ad" /> 
 
 
 
@@ -298,7 +298,7 @@ Informasi pricing berdasarkan lokasi:
 
 ---
 
-### Struk Pembelian
+### Struk Pembelian 
 Dokumen digital yang diberikan setelah pembayaran berhasil, berisi:
 - Nama tamu
 - Tanggal transaksi
@@ -307,7 +307,7 @@ Dokumen digital yang diberikan setelah pembayaran berhasil, berisi:
 - Durasi menginap
 - Total biaya (sudah termasuk diskon jika VIP)
 
-**Contoh Output:**
+**Contoh Output:** <br>
 <img width="382" height="263" alt="image" src="https://github.com/user-attachments/assets/a3e81a68-26f1-47d2-abaf-303c59c457be" />
 
 ---
