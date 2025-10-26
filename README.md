@@ -275,7 +275,7 @@ Menampilkan semua data reservasi aktif dalam format tabel dengan kolom:
 
 
 
-### 🏨 Tabel Status Kamar
+### Tabel Status Kamar
 Visualisasi real-time ketersediaan 10 kamar hotel:
 - **Kamar:** Nomor kamar (1-10)
 - **Status:** "Tersedia" atau "Ditempati"
@@ -285,7 +285,7 @@ Visualisasi real-time ketersediaan 10 kamar hotel:
 <img width="173" height="310" alt="image" src="https://github.com/user-attachments/assets/5dfbcdf9-4cfe-4070-9ed5-c37fd2a723e7" />
 
 
-### 💰 Tabel Harga Kamar
+### Tabel Harga Kamar
 Informasi pricing berdasarkan lokasi:
 - **Lantai 1 (Kamar 1-5):** Rp 300.000/malam
 - **Lantai 2 (Kamar 6-10):** Rp 600.000/malam
@@ -297,7 +297,7 @@ Informasi pricing berdasarkan lokasi:
 
 ---
 
-### 🧾 Struk Pembelian
+### Struk Pembelian
 Dokumen digital yang diberikan setelah pembayaran berhasil, berisi:
 - Nama tamu
 - Tanggal transaksi
@@ -307,37 +307,9 @@ Dokumen digital yang diberikan setelah pembayaran berhasil, berisi:
 - Total biaya (sudah termasuk diskon jika VIP)
 
 **Contoh Output:**
+<img width="382" height="263" alt="image" src="https://github.com/user-attachments/assets/a3e81a68-26f1-47d2-abaf-303c59c457be" />
 
-<img width="390" height="260" alt="image" src="https://github.com/user-attachments/assets/17ba27eb-a5d6-445b-b3dc-d6d7d9a4a6e6" />
 ---
-
-### Pesan Sukses
-Output konfirmasi untuk berbagai operasi berhasil.
-
-**Contoh Output:**
-```
-# Reservasi berhasil
-Reservasi berhasil! Total: Rp 1,800,000
-
-# Login berhasil
-Login sukses!
-
-# Registrasi berhasil
-Registrasi sukses! Akun Kostumer VIP baru telah ditambahkan.
-
-# Saldo ditambahkan
-Saldo berhasil ditambahkan!
-Saldo Anda sekarang: Rp 700,000
-
-# Akun dihapus
-Akun Karyawan 'karyawan2' berhasil dihapus.
-
-# Data diubah
-Reservasi diubah!
-
-# Data dihapus
-Reservasi dihapus!
-```
 
 ---
 
@@ -375,9 +347,9 @@ Program menampilkan status pemrosesan dan delay untuk pengguna dalam percobaan l
 
 **Contoh Output:**
 
-<img width="396" height="76" alt="image" src="https://github.com/user-attachments/assets/262588a8-ec89-464a-aa2c-799a0dbabb02" />
+<img width="396" height="76" alt="image" src="https://github.com/user-attachments/assets/262588a8-ec89-464a-aa2c-799a0dbabb02" /> <br>
 
-<img width="387" height="78" alt="image" src="https://github.com/user-attachments/assets/015b9b48-4f0d-4c0c-aa82-c3bb6edd123e" />
+<img width="387" height="78" alt="image" src="https://github.com/user-attachments/assets/015b9b48-4f0d-4c0c-aa82-c3bb6edd123e" /> <br>
 
 <img width="389" height="74" alt="image" src="https://github.com/user-attachments/assets/e65442fd-8bfa-45a4-8591-941ac87794f9" />
 
