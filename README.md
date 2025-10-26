@@ -79,7 +79,6 @@ Menampilkan semua data reservasi dalam bentuk tabel terstruktur.
 
 
 
-![Tabel Reservasi](https://via.placeholder.com/650x300/9b59b6/ffffff?text=Tabel+Reservasi+Hotel)
 
 #### 4. Ubah Reservasi
 
@@ -260,17 +259,7 @@ Pastikan semua file JSON berada dalam direktori yang sama dengan `ReservasiHotel
 
 
 # Struk digital otomatis ditampilkan
-====================================================
-=                Pembelian Kamar                   =
-====================================================
-    Nama            : Jane Smith
-    Tanggal         : 2025-10-26
-    Lantai Kamar    : 2
-    Harga Per Malam : Rp 600,000
-    Durasi          : 3 Hari
-====================================================
-=   Total            : Rp 1,530,000
-====================================================
+<img width="489" height="223" alt="image" src="https://github.com/user-attachments/assets/399564bf-b08e-4ff5-bcc1-c72865a18004" />
 
 
 ## Penjelasan Output Program
